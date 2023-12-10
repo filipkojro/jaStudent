@@ -1,6 +1,7 @@
 html {
     scroll-behavior: smooth;
     font-size: 1.5em;
+    font-weight: 400;
 }
 
 a:link { color: #deffff; }
@@ -40,6 +41,11 @@ main {
     padding: 5em;
     width: 70%;
 
+}
+
+table {
+    margin: auto;
+    width: 100%;
 }
 
 .mainBut {
@@ -82,20 +88,25 @@ main {
 }
 
 .photo {
-    height: 90%;
+    
+    aspect-ratio: 9 / 7;
+
     width: 90%;
 
-    border: 0.2em solid;
+    border: 0.1em solid;
     border-color: #FEFEFE;
     border-radius: 0.5em;
 
     transition: 0.3s;
 }
 
-.photo:hover {
-    height: 100%;
+.photo:hover {  width: 100%; }
+
+.youtube {
+    aspect-ratio: 16 / 9;
     width: 100%;
 }
+
 
 
 /*
