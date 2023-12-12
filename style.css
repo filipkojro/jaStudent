@@ -54,6 +54,25 @@ table {
     width: 100%;
 }
 
+.links {
+    margin: auto;
+
+    align-self: center;
+
+    width: 50%;
+
+    border-radius: 0.5em;
+    background-color: #0000;
+
+    transition: 0.3s;
+}
+
+.links:hover {  
+    background-color: #666;
+    width: 55%; 
+}
+
+
 .mainBut {
     margin: 0;
 
